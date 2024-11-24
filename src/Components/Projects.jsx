@@ -73,7 +73,7 @@ const Projects = () => {
               </div>
               <div className="p-6">
                 <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
-                  Jobhunt
+                  Airbit
                 </h5>
                 <p className="abto1 block font-sans text-base font-light leading-relaxed text-inherit antialiased">
                   It is an Online Job Portal developed using HTML & CSS.
@@ -105,6 +105,13 @@ const Projects = () => {
             </div>
           </SwiperSlide>
 
+
+
+
+
+
+
+
           <SwiperSlide className="ambition pl-1">
             <div className="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
               <div className="relative mx-4 h-40  rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r">
@@ -116,7 +123,7 @@ const Projects = () => {
               </div>
               <div className="p-6">
                 <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
-                  Ambition
+                  Empnode
                 </h5>
                 <p className="abto1 block font-sans text-base font-light leading-relaxed text-inherit antialiased">
                   It is a website designed for a tuition center. It has some
@@ -153,6 +160,10 @@ const Projects = () => {
               </div>
             </div>
           </SwiperSlide>
+
+
+
+
 
           <SwiperSlide className=" pl-1">
             <div className="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
@@ -214,7 +225,7 @@ const Projects = () => {
               </div>
               <div className="p-6">
                 <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
-                  PassMan
+                  PLOS
                 </h5>
                 <p className="abto1 block font-sans text-base font-light leading-relaxed text-inherit antialiased">
                   It is password manager, developed using React Js.

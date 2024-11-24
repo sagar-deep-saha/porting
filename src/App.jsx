@@ -53,7 +53,7 @@ function App() {
       <br />
       <br />
       {/* <br /> */}
-      <Edu/>
+      {/* <Edu/> */}
       <Skills />
       <br />
       <br />

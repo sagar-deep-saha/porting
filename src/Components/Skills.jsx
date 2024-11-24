@@ -14,6 +14,11 @@ const Skills = () => {
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap -m-4 justify-center text-center">
+
+
+
+
+{/*             
             <div className=" p-4 md:w-1/2">
               <div className="sklshdo h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <h2 className="text-gray-900 text-2xl title-font font-semibold mb-3 pt-5">
@@ -74,7 +79,6 @@ const Skills = () => {
                         JavaScript
                       </p>
                     </div>
-
                     <div className="flex flex-col gap-5 font-medium">
                       <p className="flex flex-row gap-2">
                         <svg
@@ -129,10 +133,20 @@ const Skills = () => {
                 </div>
               </div>
             </div>
+ */}
+
+
+
+
+
+
+
+
+
             <div className="p-4 md:w-1/2">
               <div className="sklshdo h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <h2 className="text-gray-900 text-2xl title-font font-semibold mb-3 pt-5">
-                  Backend Developer
+                  Backend Development & DevOps
                 </h2>
 
                 <div className="p-6">
@@ -169,7 +183,7 @@ const Skills = () => {
                               fill="#000000"
                             />
                           </svg>
-                          MySql
+                          Laravel
                         </p>
                       </div>
                       <p className="flex flex-row gap-2">
@@ -186,7 +200,7 @@ const Skills = () => {
                             fill="#000000"
                           />
                         </svg>
-                        Apache
+                        MySql
                       </p>
                     </div>
 
@@ -205,7 +219,7 @@ const Skills = () => {
                             fill="#000000"
                           />
                         </svg>
-                        PHP MyAdmin
+                        Apache Web Server
                       </p>
                       <p className="flex flex-row gap-2">
                         <svg
@@ -221,7 +235,7 @@ const Skills = () => {
                             fill="#000000"
                           />
                         </svg>
-                        Node Js
+                        MongoDB
                       </p>
                       <p className="flex flex-row gap-2">
                         <svg
