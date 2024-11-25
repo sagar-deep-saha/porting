@@ -62,48 +62,8 @@ const Projects = () => {
             },
           }}
         >
-          <SwiperSlide className="jobhunt pl-1">
-            <div className=" flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-              <div className="relative mx-4 h-40  rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r">
-                <img
-                  style={{ width: "100%", height: "100%", borderRadius: "8px" }}
-                  src="./images/jobhunt.png"
-                  alt=""
-                />
-              </div>
-              <div className="p-6">
-                <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
-                  Airbit
-                </h5>
-                <p className="abto1 block font-sans text-base font-light leading-relaxed text-inherit antialiased">
-                  It is an Online Job Portal developed using HTML & CSS.
-                </p>
-              </div>
-              <div className="p-6 pt-0 flex flex-row gap-8">
-                <a
-                  href="https://github.com/arkajyoti-roy/JobHunt"
-                  target="_blank"
-                >
-                  {" "}
-                  <button
-                    type="button"
-                    className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-                  >
-                    GitHub
-                  </button>
-                </a>
-                <a href="" target="_blank">
-                  {" "}
-                  <button
-                    type="button"
-                    className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-                  >
-                    Live
-                  </button>
-                </a>
-              </div>
-            </div>
-          </SwiperSlide>
+   
+
 
 
 
@@ -117,41 +77,29 @@ const Projects = () => {
               <div className="relative mx-4 h-40  rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r">
                 <img
                   style={{ width: "100%", height: "100%", borderRadius: "8px" }}
-                  src="./images/ambition.png"
+                  src="./images/sc1.jpeg"
                   alt=""
                 />
               </div>
               <div className="p-6">
                 <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
-                  Empnode
+                  TIFRO
                 </h5>
                 <p className="abto1 block font-sans text-base font-light leading-relaxed text-inherit antialiased">
-                  It is a website designed for a tuition center. It has some
-                  customize designs.
+                  Assignment Front Page designer for TIT, Narsingarh
                 </p>
               </div>
               <div className="p-6 pt-0 flex flex-row gap-8">
+             
                 <a
-                  href="https://github.com/arkajyoti-roy/Ambition"
+                  href="https://tifro.sagar.ltd/"
                   target="_blank"
                 >
                   {" "}
                   <button
                     data-ripple-light="true"
                     type="button"
-                    className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-                  >
-                    GitHub
-                  </button>
-                </a>
-                <a
-                  href="https://arkajyoti-roy.github.io/Ambition/"
-                  target="_blank"
-                >
-                  {" "}
-                  <button
-                    data-ripple-light="true"
-                    type="button"
+                    style={{backgroundColor:"navy"}}
                     className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                   >
                     Live
@@ -165,99 +113,9 @@ const Projects = () => {
 
 
 
-          <SwiperSlide className=" pl-1">
-            <div className="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-              <div className="relative mx-4 h-40  rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r">
-                <img
-                  style={{ width: "100%", height: "100%", borderRadius: "8px" }}
-                  src="./images/workstream.png"
-                  alt=""
-                />
-              </div>
-              <div className="p-6">
-                <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
-                  WorkStream
-                </h5>
-                <p className="abto1 block font-sans text-base font-light leading-relaxed text-inherit antialiased">
-                  It's an Private Office Management System Software developed
-                  using PHP.
-                </p>
-              </div>
-              <div className="p-6 pt-0 flex flex-row gap-8">
-                <a
-                  href="https://github.com/arkajyoti-roy/WorkStream"
-                  target="_blank"
-                >
-                  {" "}
-                  <button
-                    data-ripple-light="true"
-                    type="button"
-                    className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-                  >
-                    GitHub
-                  </button>
-                </a>
-                <a
-                  href="https://workstream.arkajyoti.shop/log.php"
-                  target="_blank"
-                >
-                  {" "}
-                  <button
-                    data-ripple-light="true"
-                    type="button"
-                    className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-                  >
-                    Live
-                  </button>
-                </a>
-              </div>
-            </div>
-          </SwiperSlide>
+          
 
-          <SwiperSlide className="pl-1">
-            <div className="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-              <div className="relative mx-4 h-40  rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r">
-                <img
-                  style={{ width: "100%", height: "100%", borderRadius: "8px" }}
-                  src="./images/passman.png"
-                  alt=""
-                />
-              </div>
-              <div className="p-6">
-                <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
-                  PLOS
-                </h5>
-                <p className="abto1 block font-sans text-base font-light leading-relaxed text-inherit antialiased">
-                  It is password manager, developed using React Js.
-                </p>
-              </div>
-              <div className="p-6 pt-0 flex flex-row gap-8">
-                <a
-                  href="https://github.com/arkajyoti-roy/PassMan"
-                  target="_blank"
-                >
-                  {" "}
-                  <button
-                    data-ripple-light="true"
-                    type="button"
-                    className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-                  >
-                    GitHub
-                  </button>
-                </a>
-                <a href="" target="_blank">
-                  {" "}
-                  <button
-                    data-ripple-light="true"
-                    type="button"
-                    className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-                  >
-                    Live
-                  </button>
-                </a>
-              </div>
-            </div>
-          </SwiperSlide>
+          
 
           <br />
           <br />
