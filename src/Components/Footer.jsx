@@ -10,7 +10,7 @@ const Footer = () => {
             <img src={foot_logo} className="arka2" alt="arka" />
           </a>
           <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-            Copyright© 2024; Designed & Developed by Sagar Deep Saha & <a href="https://arka-port.vercel.app/" style={{textDecoration:"none",color:"black"}}>Arkajyoti Roy</a> 
+            Copyright© 2024; Designed & Developed by <a href="https://www.linkedin.com/in/sagar-deep-saha/" style={{textDecoration:"none",color:"black"}}>Sagar Deep Saha</a> & <a href="https://www.linkedin.com/in/arkajyoti-roy/" style={{textDecoration:"none",color:"black"}}>Arkajyoti Roy</a> 
           </p>
         </div>
       </footer>
