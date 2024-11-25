@@ -16,7 +16,7 @@ const About = () => {
             <img
               className="object-cover object-center rounded-3xl"
               alt="hero"
-              src="./images/main.jpg"
+              src="./images/wolf.png"
               // src="https://dummyimage.com/720x600"
             />
           </div>
@@ -45,7 +45,7 @@ const About = () => {
                       </h1>
                     </div>
                     <div>
-                      <p className="pcl">3 + Years</p>
+                      <p className="pcl">4 + Years</p>
                     </div>
                   </div>
 
@@ -95,7 +95,7 @@ const About = () => {
                       </h1>
                     </div>
                     <div>
-                      <p className="pcl">5 + Projects</p>
+                      <p className="pcl">10 + Projects</p>
                     </div>
                   </div>
 
@@ -135,7 +135,7 @@ const About = () => {
                       </h1>
                     </div>
                     <div>
-                      <p className="pcl">Online&nbsp;24/7</p>
+                      <p className="pcl">Online&nbsp;16/7</p>
                     </div>
                   </div>
                 </div>
@@ -144,7 +144,7 @@ const About = () => {
 
             <p className="leading-relaxed abto">
               I am a full-stack developer specializing in website development
-              with experience on over 5 projects independently and in teams.
+              with experience on over 10 projects independently and in teams.
               Pursuing a B.Tech degree after a 3-year diploma in Computer
               Science, I am passionate about creating innovative development
               projects.
