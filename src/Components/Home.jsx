@@ -15,7 +15,7 @@ const Home = () => {
         <div id="side" className="social">
           <ul className="wrapper">
             <a
-              href="https://www.linkedin.com/in/arkajyoti-roy/"
+              href="https://www.linkedin.com/in/sagar-deep-saha/"
               target="_blank"
             >
               {" "}
@@ -33,7 +33,7 @@ const Home = () => {
               </li>
             </a>
 
-            <a href="https://github.com/arkajyoti-roy" target="_blank">
+            <a href="https://github.com/sagar-deep-saha" target="_blank">
               {" "}
               <li className="icon github">
                 <span className="tooltip">Github</span>

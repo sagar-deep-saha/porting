@@ -8,7 +8,7 @@ const SideSocial = () => {
     <div className="merged">
       <div id="side">
         <ul className="wrapper">
-          <a href="https://www.linkedin.com/in/arkajyoti-roy/" target="_blank">
+          <a href="https://www.linkedin.com/in/sagar-deep-saha/" target="_blank">
             {" "}
             <li className="icon linkedin">
               <span className="tooltip">Linkedin</span>
@@ -24,7 +24,7 @@ const SideSocial = () => {
             </li>
           </a>
 
-          <a href="https://github.com/arkajyoti-roy" target="_blank">
+          <a href="https://github.com/sagar-deep-saha" target="_blank">
             {" "}
             <li className="icon github">
               <span className="tooltip">Github</span>

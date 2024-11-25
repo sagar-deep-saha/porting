@@ -22,7 +22,7 @@ const Nav = () => {
             offset={-100}
             duration={500}
           >
-            <span className="ml-20 text-3xl">Arkajyoti</span>
+            <span className="ml-20 text-3xl">Sagar Deep Saha</span>
           </Link>
           <nav className="md:ml-auto flex flex-wrap items-center mr-10 pb-1 text-base justify-center">
             <Link
@@ -45,7 +45,7 @@ const Nav = () => {
             >
               About
             </Link>
-            <Link
+            {/* <Link
               to="edu"
               spy={true}
               smooth={true}
@@ -54,7 +54,7 @@ const Nav = () => {
               className="mr-5 hover:text-gray-900 font-semibold cursor-pointer"
             >
               Education
-            </Link>
+            </Link> */}
             <Link
               to="skills"
               spy={true}
@@ -85,7 +85,7 @@ const Nav = () => {
             >
               Projects
             </Link>
-            <Link
+            {/* <Link
               to="contact"
               spy={true}
               smooth={true}
@@ -94,7 +94,7 @@ const Nav = () => {
               className="mr-5 hover:text-gray-900 font-semibold cursor-pointer"
             >
               Contact
-            </Link>
+            </Link> */}
           </nav>
         </div>
       </header>
@@ -190,16 +190,16 @@ const Nav = () => {
                 >
                   About
                 </Link>
-                <Link
-              to="edu"
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={500}
-              className="mr-5 hover:text-gray-900 font-semibold cursor-pointer"
-            >
-              Education
-            </Link>
+                {/* <Link
+                  to="edu"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                  className="mr-5 hover:text-gray-900 font-semibold cursor-pointer"
+                >
+                  Education
+                </Link> */}
                 <Link
                   to="skills"
                   spy={true}
@@ -230,7 +230,7 @@ const Nav = () => {
                 >
                   Projects
                 </Link>
-                <Link
+                {/* <Link
                   to="contact"
                   spy={true}
                   smooth={true}
@@ -239,7 +239,7 @@ const Nav = () => {
                   className="mr-5 hover:text-gray-900 font-semibold cursor-pointer"
                 >
                   Contact
-                </Link>
+                </Link> */}
               </ul>
             </div>
           </div>
