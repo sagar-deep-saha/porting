@@ -10,7 +10,7 @@ const Footer = () => {
             <img src={arka2} className="arka2" alt="arka" />
           </a>
           <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-            Copyright© 2024; Designed & Developed by Arkajyoti Roy
+            Copyright© 2024; Designed & Developed by Sagar Deep Saha & Arkajyoti Roy
           </p>
         </div>
       </footer>

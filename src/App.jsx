@@ -65,7 +65,7 @@ function App() {
       {/* <br /> */}
       <br />
       <br />
-      <Contact />
+      {/* <Contact /> */}
 
       <Footer />
       </div>
