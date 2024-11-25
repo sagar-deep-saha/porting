@@ -102,7 +102,8 @@ const Home = () => {
               </p>
               <div className="flex justify-center">
                 <a
-                  href="https://api.whatsapp.com/send?phone=+918974335084&text=Hello%2C%20!"
+                  href="https://www.linkedin.com/in/sagar-deep-saha/"
+                  // href="https://api.whatsapp.com/send?phone=+918257803481&text=Hello%2C%20!"
                   target="_blank"
                 >
                   <button
@@ -146,10 +147,10 @@ const Home = () => {
 
               <img
                 className="object-cover object-center rounded-3xl"
-                alt="arka"
+                alt="sagar"
                 // src="https://dummyimage.com/620x500"
               // src="./images/sa.jpg"
-              src="./images/arkac.jpg"
+              src="./images/wolf.png"
 
               />
             </div>
