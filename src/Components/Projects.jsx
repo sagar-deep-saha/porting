@@ -62,7 +62,7 @@ const Projects = () => {
             },
           }}
         >
-   
+
 
 
 
@@ -90,7 +90,7 @@ const Projects = () => {
                 </p>
               </div>
               <div className="p-6 pt-0 flex flex-row gap-8">
-             
+
                 <a
                   href="https://tifro.sagar.ltd/"
                   target="_blank"
@@ -99,10 +99,10 @@ const Projects = () => {
                   <button
                     data-ripple-light="true"
                     type="button"
-                    style={{backgroundColor:"navy"}}
+                    style={{ backgroundColor: "navy" }}
                     className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                   >
-                    Live
+                    Visit
                   </button>
                 </a>
               </div>
@@ -113,9 +113,192 @@ const Projects = () => {
 
 
 
-          
+          <SwiperSlide className="ambition pl-1">
+            <div className="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+              <div className="relative mx-4 h-40  rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r">
+                <img
+                  style={{ width: "100%", height: "100%", borderRadius: "8px" }}
+                  src="./images/sc1.jpeg"
+                  alt=""
+                />
+              </div>
+              <div className="p-6">
+                <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+                  AirBit
+                </h5>
+                <p className="abto1 block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+                  Community Connection Platform
+                  <br />
+                  <br />
+                </p>
+              </div>
+              <div className="p-6 pt-0 flex flex-row gap-8">
 
-          
+                {/* <a
+                  href="https://tifro.sagar.ltd/"
+                  target="_blank"
+                > */}
+                {" "}
+                <button
+                  data-ripple-light="true"
+                  type="button"
+                  style={{ backgroundColor: "gray" }}
+                  className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                >
+                  Visit
+                </button>
+                {/* </a> */}
+              </div>
+            </div>
+          </SwiperSlide>
+
+
+
+
+
+
+
+
+
+
+          <SwiperSlide className="ambition pl-1">
+            <div className="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+              <div className="relative mx-4 h-40  rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r">
+                <img
+                  style={{ width: "100%", height: "100%", borderRadius: "8px" }}
+                  src="./images/sc1.jpeg"
+                  alt=""
+                />
+              </div>
+              <div className="p-6">
+                <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+                  Empnode
+                </h5>
+                <p className="abto1 block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+                  Office Management System (Public & Custom)
+                  <br />
+                </p>
+              </div>
+              <div className="p-6 pt-0 flex flex-row gap-8">
+
+                {/* <a
+                  href="https://tifro.sagar.ltd/"
+                  target="_blank"
+                > */}
+                {" "}
+                <button
+                  data-ripple-light="true"
+                  type="button"
+                  style={{ backgroundColor: "gray" }}
+                  className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                >
+                  Visit
+                </button>
+                {/* </a> */}
+              </div>
+            </div>
+          </SwiperSlide>
+
+
+
+
+
+
+
+
+
+
+          <SwiperSlide className="ambition pl-1">
+            <div className="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+              <div className="relative mx-4 h-40  rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r">
+                <img
+                  style={{ width: "100%", height: "100%", borderRadius: "8px" }}
+                  src="./images/Screenshot_27-11-2024_02839_deeppink-hornet-988525.hostingersite.com.jpeg"
+                  alt=""
+                />
+              </div>
+              <div className="p-6">
+                <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+                  BlogNest
+                </h5>
+                <p className="abto1 block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+                  Public Blogging SIte
+                  <br />
+                  <br />
+                </p>
+              </div>
+              <div className="p-6 pt-0 flex flex-row gap-8">
+
+                <a
+                  href="https://deeppink-hornet-988525.hostingersite.com/log.php"
+                  target="_blank"
+                >
+                  {" "}
+                  <button
+                    data-ripple-light="true"
+                    type="button"
+                    style={{ backgroundColor: "navy" }}
+                    className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                  >
+                    Visit
+                  </button>
+                </a>
+              </div>
+            </div>
+          </SwiperSlide>
+
+
+
+
+
+
+
+          <SwiperSlide className="ambition pl-1">
+            <div className="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+              <div className="relative mx-4 h-40  rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r">
+                <img
+                  style={{ width: "100%", height: "100%", borderRadius: "8px" }}
+                  src="./images/Screenshot_27-11-2024_03511_localhost.jpeg"
+                  alt=""
+                />
+              </div>
+              <div className="p-6">
+                <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+                  PLOS
+                </h5>
+                <p className="abto1 block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+                  Password Manager
+                  <br />
+                  <br />
+                </p>
+              </div>
+              <div className="p-6 pt-0 flex flex-row gap-8">
+
+                {/* <a
+                  href="https://deeppink-hornet-988525.hostingersite.com/log.php"
+                  target="_blank"
+                > */}
+                  {" "}
+                  <button
+                    data-ripple-light="true"
+                    type="button"
+                    style={{ backgroundColor: "gray" }}
+                    className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                  >
+                    Visit
+                  </button>
+                {/* </a> */}
+              </div>
+            </div>
+          </SwiperSlide>
+
+
+
+
+
+
+
+
 
           <br />
           <br />

@@ -14,12 +14,27 @@ const Home = () => {
       <div id="homee" className="home">
         <div id="side" className="social">
           <ul className="wrapper">
+
+            
+          <a
+              href="https://hackerrank.com/sagar-saha/"
+              target="_blank"
+            >
+              {" "}
+              <li className="icon github">
+                <span className="tooltip">HackerRank</span>
+                <svg fill="#000000" width="800px" height="800px" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg"><path d="M0 0v24h24V0zm9.95 8.002h1.805c.061 0 .111.05.111.111v7.767c0 .061-.05.111-.11.111H9.95a.111.111 0 0 1-.111-.11v-2.87H7.894v2.87c0 .06-.05.11-.11.11H5.976a.11.11 0 0 1-.11-.11V8.112c0-.06.05-.11.11-.11h1.806c.061 0 .11.05.11.11v2.869H9.84v-2.87c0-.06.05-.11.11-.11zm2.999 0h5.778c.061 0 .111.05.111.11v7.767a.11.11 0 0 1-.11.112h-5.78a.11.11 0 0 1-.11-.11v-7.77c0-.06.05-.11.11-.11z" /></svg>
+              </li>
+            </a>
+            <br />
+
+            
             <a
               href="https://www.linkedin.com/in/sagar-deep-saha/"
               target="_blank"
             >
               {" "}
-              <li className="icon linkedin">
+              <li className="icon github">
                 <span className="tooltip">Linkedin</span>
                 <svg
                   fill="#000000"
@@ -33,7 +48,21 @@ const Home = () => {
               </li>
             </a>
             <br />
+
+
+            <a
+              href="https://leetcode.com/u/sagar-saha/"
+              target="_blank"
+            >
+              {" "}
+              <li className="icon github">
+                <span className="tooltip">LeetCode</span>
+                <svg fill="#000000" style={{ padding: "8px" }} viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg"><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z" /></svg>
+              </li>
+            </a>
             <br />
+
+
             <a href="https://github.com/sagar-deep-saha" target="_blank">
               {" "}
               <li className="icon github">
@@ -86,7 +115,7 @@ const Home = () => {
         </div>
 
         <section className="herosec text-gray-600 body-font">
-          <div className="container mx-auto flex md:flex-row flex-col items-center" style={{marginLeft:"-34%",width:"200%"}}>
+          <div className="container mx-auto flex md:flex-row flex-col items-center" style={{ marginLeft: "-34%", width: "200%" }}>
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center sm:justify-center sm:text-center sm:pr-2">
               <h1 className="title-font sm:text-4xl text-5xl mb-4 font-medium text-gray-900">
                 Sagar Deep Saha
@@ -112,8 +141,8 @@ const Home = () => {
                     style={{ backgroundColor: "navy" }}
                     className="poplo justify-center text-center inline-flex font-semibold text-white rounded-lg bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-900 text-lg"
                   >
-                    Say hello{" "}
-                    <svg className="font-semibold"
+                    Get Linked{" "}
+                    {/* <svg className="font-semibold"
                       style={{ paddingTop: "6px", paddingLeft: "4px" }}
                       height="1.2em"
                       viewBox="0 0 24 24"
@@ -138,7 +167,7 @@ const Home = () => {
                           strokeLinejoin="round"
                         />{" "}
                       </g>
-                    </svg>
+                    </svg> */}
                   </button>
                 </a>
               </div>
@@ -173,7 +202,7 @@ const Home = () => {
         offset={-100}
         duration={500}
       >
-        <button className="scroll flex gap-1">
+        {/* <button className="scroll flex gap-1">
           <div>
             <svg
               height="2.3em"
@@ -208,7 +237,7 @@ const Home = () => {
               />
             </svg>
           </div>
-        </button>
+        </button> */}
       </Link>
     </>
   );
