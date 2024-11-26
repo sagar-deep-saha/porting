@@ -2,7 +2,9 @@ import "./style.css";
 
 import admit from "./Download/admit.pdf";
 
+
 const About = () => {
+  const showMessage = () => { alert('IP Adress of this device is not Authorised'); };
   return (
     <div id="about">
       <section className="text-gray-600 body-font">
@@ -12,12 +14,12 @@ const About = () => {
         </div>
         <div className="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-          
+
             <img
               className="object-cover object-center rounded-3xl"
               alt="hero"
               src="./images/wolf.png"
-              // src="https://dummyimage.com/720x600"
+            // src="https://dummyimage.com/720x600"
             />
           </div>
           <div className="boxc lg:flex-grow  lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
@@ -150,38 +152,40 @@ const About = () => {
               projects.
             </p>
             <div className="flex justify-center">
-              <a href={admit} download="admit.pdf">
-                {" "}
-                <button style={{backgroundColor:"navy"}} className="poplo1 justify-center text-center font-semibold inline-flex text-white rounded-lg bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-900 text-lg">
-                  Download CV{" "}
-                  <svg
-                    className="cvsvg"
-                    height="1.2em"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <g id="SVGRepo_bgCarrier" strokeWidth="0" />
+              {/* <a href={admit} 
+              // download="admit.pdf"
+              > */}
+              {" "}
+              <button onClick={showMessage} style={{ backgroundColor: "navy" }} className="poplo1 justify-center text-center font-semibold inline-flex text-white rounded-lg bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-900 text-lg">
+                Download CV{" "}
+                <svg
+                  className="cvsvg"
+                  height="1.2em"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="SVGRepo_bgCarrier" strokeWidth="0" />
 
-                    <g
-                      id="SVGRepo_tracerCarrier"
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+
+                  <g id="SVGRepo_iconCarrier">
+                    {" "}
+                    <path
+                      d="M9 17H15M9 13H15M9 9H10M13 3H8.2C7.0799 3 6.51984 3 6.09202 3.21799C5.71569 3.40973 5.40973 3.71569 5.21799 4.09202C5 4.51984 5 5.0799 5 6.2V17.8C5 18.9201 5 19.4802 5.21799 19.908C5.40973 20.2843 5.71569 20.5903 6.09202 20.782C6.51984 21 7.0799 21 8.2 21H15.8C16.9201 21 17.4802 21 17.908 20.782C18.2843 20.5903 18.5903 20.2843 18.782 19.908C19 19.4802 19 18.9201 19 17.8V9M13 3L19 9M13 3V7.4C13 7.96005 13 8.24008 13.109 8.45399C13.2049 8.64215 13.3578 8.79513 13.546 8.89101C13.7599 9 14.0399 9 14.6 9H19"
+                      stroke="#ffffff"
+                      strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                    />
-
-                    <g id="SVGRepo_iconCarrier">
-                      {" "}
-                      <path
-                        d="M9 17H15M9 13H15M9 9H10M13 3H8.2C7.0799 3 6.51984 3 6.09202 3.21799C5.71569 3.40973 5.40973 3.71569 5.21799 4.09202C5 4.51984 5 5.0799 5 6.2V17.8C5 18.9201 5 19.4802 5.21799 19.908C5.40973 20.2843 5.71569 20.5903 6.09202 20.782C6.51984 21 7.0799 21 8.2 21H15.8C16.9201 21 17.4802 21 17.908 20.782C18.2843 20.5903 18.5903 20.2843 18.782 19.908C19 19.4802 19 18.9201 19 17.8V9M13 3L19 9M13 3V7.4C13 7.96005 13 8.24008 13.109 8.45399C13.2049 8.64215 13.3578 8.79513 13.546 8.89101C13.7599 9 14.0399 9 14.6 9H19"
-                        stroke="#ffffff"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />{" "}
-                    </g>
-                  </svg>
-                </button>
-              </a>
+                    />{" "}
+                  </g>
+                </svg>
+              </button>
+              {/* </a> */}
             </div>
           </div>
         </div>
