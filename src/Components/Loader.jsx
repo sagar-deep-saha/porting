@@ -1,254 +1,191 @@
-// import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 const Loader = () => {
   return (
-<div style={{backgroundColor: "black"}}>
-  <StyledWrapper>
-      <div className="loader">
-        <div className="box1" />
-        <div className="box2" />
-        <div className="box3" />
+    <StyledWrapper>
+      <div>
+        <div className="loader">
+          <svg viewBox="0 0 80 80">
+            <circle r={32} cy={40} cx={40} id="test" />
+          </svg>
+        </div>
+        <div className="loader triangle">
+          <svg viewBox="0 0 86 80">
+            <polygon points="43 8 79 72 7 72" />
+          </svg>
+        </div>
+        <div className="loader">
+          <svg viewBox="0 0 80 80">
+            <rect height={64} width={64} y={8} x={8} />
+          </svg>
+        </div>
       </div>
     </StyledWrapper>
-    </div>
   );
-};
+}
 
 const StyledWrapper = styled.div`
   .loader {
-  width: 112px;
-  height: 112px;
-}
-
-.box1,
-.box2,
-.box3 {
-  border: 16px solid #f5f5f5;
-  box-sizing: border-box;
-  position: absolute;
-  display: block;
-}
-
-.box1 {
-  width: 112px;
-  height: 48px;
-  margin-top: 64px;
-  margin-left: 0px;
-  animation: abox1 4s 1s forwards ease-in-out infinite;
-}
-
-.box2 {
-  width: 48px;
-  height: 48px;
-  margin-top: 0px;
-  margin-left: 0px;
-  animation: abox2 4s 1s forwards ease-in-out infinite;
-}
-
-.box3 {
-  width: 48px;
-  height: 48px;
-  margin-top: 0px;
-  margin-left: 64px;
-  animation: abox3 4s 1s forwards ease-in-out infinite;
-}
-
-@keyframes abox1 {
-  0% {
-    width: 112px;
-    height: 48px;
-    margin-top: 64px;
-    margin-left: 0px;
+    // --path: #2f3545;
+    --path: grey;
+    // --dot: #5628ee;
+    // --dot: navy;
+    --dot: white;
+    --duration: 3s;
+    width: 44px;
+    height: 44px;
+    position: relative;
+    // background-color:#fff;
   }
 
-  12.5% {
+  .loader:before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    position: absolute;
+    display: block;
+    background: var(--dot);
+    top: 37px;
+    left: 19px;
+    transform: translate(-18px, -18px);
+    animation: dotRect var(--duration) cubic-bezier(0.785, 0.135, 0.15, 0.86)
+      infinite;
+  }
+
+  .loader svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .loader svg rect,
+  .loader svg polygon,
+  .loader svg circle {
+    fill: none;
+    stroke: var(--path);
+    stroke-width: 10px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
+
+  .loader svg polygon {
+    stroke-dasharray: 145 76 145 76;
+    stroke-dashoffset: 0;
+    animation: pathTriangle var(--duration) cubic-bezier(0.785, 0.135, 0.15, 0.86)
+      infinite;
+  }
+
+  .loader svg rect {
+    stroke-dasharray: 192 64 192 64;
+    stroke-dashoffset: 0;
+    animation: pathRect 3s cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
+  }
+
+  .loader svg circle {
+    stroke-dasharray: 150 50 150 50;
+    stroke-dashoffset: 75;
+    animation: pathCircle var(--duration) cubic-bezier(0.785, 0.135, 0.15, 0.86)
+      infinite;
+  }
+
+  .loader.triangle {
     width: 48px;
-    height: 48px;
-    margin-top: 64px;
-    margin-left: 0px;
   }
 
-  25% {
-    width: 48px;
-    height: 48px;
-    margin-top: 64px;
-    margin-left: 0px;
+  .loader.triangle:before {
+    left: 21px;
+    transform: translate(-10px, -18px);
+    animation: dotTriangle var(--duration) cubic-bezier(0.785, 0.135, 0.15, 0.86)
+      infinite;
   }
 
-  37.5% {
-    width: 48px;
-    height: 48px;
-    margin-top: 64px;
-    margin-left: 0px;
+  @keyframes pathTriangle {
+    33% {
+      stroke-dashoffset: 74;
+    }
+
+    66% {
+      stroke-dashoffset: 147;
+    }
+
+    100% {
+      stroke-dashoffset: 221;
+    }
   }
 
-  50% {
-    width: 48px;
-    height: 48px;
-    margin-top: 64px;
-    margin-left: 0px;
+  @keyframes dotTriangle {
+    33% {
+      transform: translate(0, 0);
+    }
+
+    66% {
+      transform: translate(10px, -18px);
+    }
+
+    100% {
+      transform: translate(-10px, -18px);
+    }
   }
 
-  62.5% {
-    width: 48px;
-    height: 48px;
-    margin-top: 64px;
-    margin-left: 0px;
+  @keyframes pathRect {
+    25% {
+      stroke-dashoffset: 64;
+    }
+
+    50% {
+      stroke-dashoffset: 128;
+    }
+
+    75% {
+      stroke-dashoffset: 192;
+    }
+
+    100% {
+      stroke-dashoffset: 256;
+    }
   }
 
-  75% {
-    width: 48px;
-    height: 112px;
-    margin-top: 0px;
-    margin-left: 0px;
+  @keyframes dotRect {
+    25% {
+      transform: translate(0, 0);
+    }
+
+    50% {
+      transform: translate(18px, -18px);
+    }
+
+    75% {
+      transform: translate(0, -36px);
+    }
+
+    100% {
+      transform: translate(-18px, -18px);
+    }
   }
 
-  87.5% {
-    width: 48px;
-    height: 48px;
-    margin-top: 0px;
-    margin-left: 0px;
+  @keyframes pathCircle {
+    25% {
+      stroke-dashoffset: 125;
+    }
+
+    50% {
+      stroke-dashoffset: 175;
+    }
+
+    75% {
+      stroke-dashoffset: 225;
+    }
+
+    100% {
+      stroke-dashoffset: 275;
+    }
   }
 
-  100% {
-    width: 48px;
-    height: 48px;
-    margin-top: 0px;
-    margin-left: 0px;
-  }
-}
-
-@keyframes abox2 {
-  0% {
-    width: 48px;
-    height: 48px;
-    margin-top: 0px;
-    margin-left: 0px;
-  }
-
-  12.5% {
-    width: 48px;
-    height: 48px;
-    margin-top: 0px;
-    margin-left: 0px;
-  }
-
-  25% {
-    width: 48px;
-    height: 48px;
-    margin-top: 0px;
-    margin-left: 0px;
-  }
-
-  37.5% {
-    width: 48px;
-    height: 48px;
-    margin-top: 0px;
-    margin-left: 0px;
-  }
-
-  50% {
-    width: 112px;
-    height: 48px;
-    margin-top: 0px;
-    margin-left: 0px;
-  }
-
-  62.5% {
-    width: 48px;
-    height: 48px;
-    margin-top: 0px;
-    margin-left: 64px;
-  }
-
-  75% {
-    width: 48px;
-    height: 48px;
-    margin-top: 0px;
-    margin-left: 64px;
-  }
-
-  87.5% {
-    width: 48px;
-    height: 48px;
-    margin-top: 0px;
-    margin-left: 64px;
-  }
-
-  100% {
-    width: 48px;
-    height: 48px;
-    margin-top: 0px;
-    margin-left: 64px;
-  }
-}
-
-@keyframes abox3 {
-  0% {
-    width: 48px;
-    height: 48px;
-    margin-top: 0px;
-    margin-left: 64px;
-  }
-
-  12.5% {
-    width: 48px;
-    height: 48px;
-    margin-top: 0px;
-    margin-left: 64px;
-  }
-
-  25% {
-    width: 48px;
-    height: 112px;
-    margin-top: 0px;
-    margin-left: 64px;
-  }
-
-  37.5% {
-    width: 48px;
-    height: 48px;
-    margin-top: 64px;
-    margin-left: 64px;
-  }
-
-  50% {
-    width: 48px;
-    height: 48px;
-    margin-top: 64px;
-    margin-left: 64px;
-  }
-
-  62.5% {
-    width: 48px;
-    height: 48px;
-    margin-top: 64px;
-    margin-left: 64px;
-  }
-
-  75% {
-    width: 48px;
-    height: 48px;
-    margin-top: 64px;
-    margin-left: 64px;
-  }
-
-  87.5% {
-    width: 48px;
-    height: 48px;
-    margin-top: 64px;
-    margin-left: 64px;
-  }
-
-  100% {
-    width: 112px;
-    height: 48px;
-    margin-top: 64px;
-    margin-left: 0px;
-  }
-}
-
-`;
+  .loader {
+    display: inline-block;
+    margin: 0 16px;
+  }`;
 
 export default Loader;
