@@ -168,7 +168,8 @@ const Home = () => {
                 alt="sagar"
                 // src="https://dummyimage.com/620x500"
                 // src="./images/sa.jpg"
-                src="./images/wolf.png"
+                // src="./images/wolf.png"
+                src="https://avatars.githubusercontent.com/u/89993023?v=4"
 
               />
 
