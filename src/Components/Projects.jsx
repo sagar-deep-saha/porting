@@ -172,6 +172,50 @@ const Projects = () => {
               </div>
               <div className="p-6">
                 <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+                  DEFRO
+                </h5>
+                <p className="abto1 block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+                  Assignment Front Page designer for Diploma
+                </p>
+              </div>
+              <div className="p-6 pt-0 flex flex-row gap-8">
+
+                <a
+                  href="https://defro.sagar.ltd/"
+                  target="_blank"
+                >
+                  {" "}
+                  <button
+                    data-ripple-light="true"
+                    type="button"
+                    style={{ backgroundColor: "navy" }}
+                    className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                  >
+                    Visit
+                  </button>
+                </a>
+              </div>
+            </div>
+          </SwiperSlide>
+
+
+
+
+
+
+
+
+          <SwiperSlide className="ambition pl-1">
+            <div className="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+              <div className="relative mx-4 h-40  rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r">
+                <img
+                  style={{ width: "100%", height: "100%", borderRadius: "8px" }}
+                  src="./images/sc1.jpeg"
+                  alt=""
+                />
+              </div>
+              <div className="p-6">
+                <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                   Empnode
                 </h5>
                 <p className="abto1 block font-sans text-base font-light leading-relaxed text-inherit antialiased">
