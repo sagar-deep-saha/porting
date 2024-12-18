@@ -289,7 +289,7 @@ const Projects = () => {
               <div className="p-6 pt-0 flex flex-row gap-8">
 
                 <a
-                  href="https://deeppink-hornet-988525.hostingersite.com/log.php"
+                  href="https://blognest.sagar.ltd"
                   target="_blank"
                 >
                   {" "}
