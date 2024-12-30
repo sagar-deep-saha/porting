@@ -14,7 +14,7 @@
   gap: 128px;
 }
 
-.arka22 {
+.trafficsense22 {
   display: none !important;
 }
 @media screen and (max-width: 1010px) {
@@ -146,7 +146,7 @@
     display: none !important;
   }
 
-  .arka22 {
+  .trafficsense22 {
     padding-top: 9px;
     margin-top: -19px;
     display: block !important;
@@ -401,7 +401,7 @@ ul {
   /* background-color: #00ff44; */
 }
 
-.arka2 {
+.trafficsense2 {
   height: 45px;
 }
 

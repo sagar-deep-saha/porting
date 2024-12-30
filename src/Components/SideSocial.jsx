@@ -57,7 +57,7 @@ const SideSocial = () => {
             </li>
           </a>
 
-          <a href="https://www.instagram.com/arkajyoti_roy/" target="_blank">
+          <a href="https://www.instagram.com/traffic_roy/" target="_blank">
             {" "}
             <li className="icon instagram">
               <span className="tooltip">Instagram</span>

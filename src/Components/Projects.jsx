@@ -196,7 +196,7 @@ const Projects = () => {
                 </a>
 
                 <a
-                  href="https://diploma.arkajyoti.shop/"
+                  href="https://diploma.traffic.shop/"
                   target="_blank"
                 >
                   {" "}

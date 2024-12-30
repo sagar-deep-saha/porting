@@ -1,4 +1,4 @@
-import arka2 from "./images/arka2.png";
+import trafficsense2 from "./images/trafficsense2.png";
 import { Link } from "react-scroll";
 import { useState } from "react";
 
@@ -113,7 +113,7 @@ const Nav = () => {
               duration={500}
               className="flex title-font font-medium text-gray-900 mb-4 md:mb-0"
             >
-              <img src={arka2} className="arka22" alt="arka" />
+              <img src={trafficsense2} className="trafficsense22" alt="trafficsense" />
             </Link>
           </div>
           <div>
