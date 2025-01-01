@@ -1,4 +1,4 @@
-import trafficsense2 from "./images/trafficsense2.png";
+import logo from "./images/4yu168rg.png";
 import { Link } from "react-scroll";
 import { useState } from "react";
 
@@ -22,7 +22,7 @@ const Nav = () => {
             offset={-100}
             duration={500}
           >
-            <span className="ml-20 text-3xl">Sagar Deep Saha</span>
+            <img src={logo} className="h-8 ml-20" alt="logo" />
           </Link>
           <nav className="md:ml-auto flex flex-wrap items-center mr-10 pb-1 text-base justify-center">
             <Link
@@ -113,7 +113,7 @@ const Nav = () => {
               duration={500}
               className="flex title-font font-medium text-gray-900 mb-4 md:mb-0"
             >
-              <img src={trafficsense2} className="trafficsense22" alt="trafficsense" />
+              <img src={logo} className="h-8 ml-4" alt="logo" />
             </Link>
           </div>
           <div>
